@@ -1,4 +1,13 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Pretend Work System (假装上班系统)
+
+This is a "Pretend Work" web application designed to mimic a retro data entry interface. Users can type captchas to "earn" fake money.
+
+## Features
+
+- **Retro Interface**: Styled to look like old utility software.
+- **Captcha Typing**: Randomly generated captchas to type.
+- **Economy System**: Earn 0.1 RMB per correct entry.
+- **Withdrawal Simulation**: Fake withdrawal feature.
 
 ## Getting Started
 
@@ -6,17 +15,18 @@ First, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Deployment
+
+This project is ready to be deployed on [Vercel](https://vercel.com).
+
+1. Push to GitHub.
+2. Import project in Vercel.
+3. Deploy.
+
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
