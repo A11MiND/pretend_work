@@ -1,46 +1,30 @@
 # Pretend Work System (假装上班系统)
 
-This is a "Pretend Work" web application designed to mimic a retro data entry interface. Users can type captchas to "earn" fake money.
+[![Next.js](https://img.shields.io/badge/Next.js-15-000000)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-blue)](https://www.typescriptlang.org/)
+
+A satirical "pretend work" web toy that mimics a retro data-entry terminal. Type captchas to "earn" fake money, complete with a queue counter, a multiplier, and a fake withdrawal flow.
 
 ## Features
 
-- **Retro Interface**: Styled to look like old utility software.
-- **Captcha Typing**: Randomly generated captchas to type.
-- **Economy System**: Earn 0.1 RMB per correct entry.
-- **Withdrawal Simulation**: Fake withdrawal feature.
+- Retro interface styled after old utility software
+- Randomly generated captchas to type
+- A small fake economy: earn 0.1 RMB per correct entry
+- A withdrawal simulation
 
-## Getting Started
-
-First, run the development server:
+## Getting started
 
 ```bash
+npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
+
+## Tech stack
+
+Next.js (App Router), React, TypeScript.
 
 ## Deployment
 
-This project is ready to be deployed on [Vercel](https://vercel.com).
-
-1. Push to GitHub.
-2. Import project in Vercel.
-3. Deploy.
-
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Deploys as a standard Next.js app — e.g. push to GitHub and import into [Vercel](https://vercel.com).
